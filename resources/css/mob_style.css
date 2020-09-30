@@ -1,4 +1,4 @@
-@media only screen and (max-width:880px) and (orientation: portrait){
+@media only screen and (max-width:880px) and (max-resolution: 600dpi) {
     #desk-header{
         display: none;
     }

@@ -109,7 +109,7 @@ nav ul li{
 
 .banner-section-right-inner-container{
     height: auto;
-    width: 355px;
+    width: 80%;
     /* width: 70%; */
     min-width: 355px;
     display: flex;

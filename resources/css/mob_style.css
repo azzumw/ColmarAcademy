@@ -48,7 +48,8 @@
     }
     .banner-section-right h1{
         /* border: 1px solid white; */
-        font-size: 52px;
+        /* font-size: 52px; */
+        font-size: 10vw;
         display: inline;
         text-align: start;
     }
@@ -57,14 +58,15 @@
         /* width: 55%; */
         margin-top: 32px;
         margin-bottom: 24px;
-        font-size: 36px;
+        /* font-size: 36px; */
+        font-size: 6.6vw;
         display: inline-block;
     }
 
     #start-here-btn{
         width: 100%;
         background: rgb(128,128,128);
-        font-size: 6.0vw;
+        font-size: 5.0vw;
     }
 
 }

@@ -3,9 +3,14 @@
     header{
         height: 80px;
     }
-    
+
     #desk-header{
         display: none;
+    }
+
+    .section{
+        position: relative;
+        top: 80px;
     }
 
     #mob-header{

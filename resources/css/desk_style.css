@@ -117,6 +117,7 @@ nav ul li{
     justify-content: center;
     color: rgb(64,64,64);
     margin: 32px 0;
+    font-size: 40px;
     /* border: 1px solid red; */
     /* font-size: 0.82vw; */
 }

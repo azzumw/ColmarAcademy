@@ -1,4 +1,9 @@
 @media only screen and (max-device-width : 800px), (max-width:680px) {
+
+    header{
+        height: 80px;
+    }
+    
     #desk-header{
         display: none;
     }

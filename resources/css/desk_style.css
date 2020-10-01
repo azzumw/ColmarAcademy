@@ -23,6 +23,7 @@ header{
     max-width: 1500px;
     z-index: 2;
     position: fixed;
+    background: white;
    /* border: 1px solid green; */
 }
 

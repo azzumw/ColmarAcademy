@@ -266,3 +266,24 @@ nav ul li{
     /* border: 1px solid red; */
     /* font-size: 3.8vw; */
 }
+
+/* section 3 */
+
+.section-3{
+    position: relative;
+    top:64px;
+    padding: 32px 72px;
+    text-align: center;
+    background: whitesmoke;
+}
+
+.section-3 h1{
+    color:rgb(64,64,64);
+    font-size:40px;
+    letter-spacing: 0.02em;
+    margin-bottom: 32px;
+}
+
+#learning-grid{
+    display: grid;
+}

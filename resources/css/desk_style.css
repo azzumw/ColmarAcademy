@@ -238,4 +238,5 @@ nav ul li{
 .card .info-card-container a{
     text-decoration: none;
     color: skyblue;
+    width: fit-content;
 }

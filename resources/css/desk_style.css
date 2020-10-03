@@ -82,12 +82,12 @@ nav ul li{
     position: relative;
     top: 64px;
     display: flex;
-    
+
 }
 
 .banner-section{
     height: auto;
-    /* width: 60%; */
+    width: 60%;
     padding: 32px 24px;
     /* border: 1px solid black; */
 }
@@ -109,7 +109,7 @@ nav ul li{
 
 .banner-section-right-inner-container{
     height: auto;
-    width: 80%;
+    width: 60%;
     /* width: 70%; */
     min-width: 355px;
     display: flex;
@@ -124,7 +124,7 @@ nav ul li{
 
 .banner-section-right h1{
     /* width: 55%; */
-    
+
     letter-spacing: 0.02em;
     /* display: inline-block; */
     font-size: 40px;
@@ -147,4 +147,122 @@ nav ul li{
     background: rgb(64,64,64);
     padding: 3%;
     /* font-size: 50%; */
+}
+
+/* section-2 */
+.section-2{
+    background: white;
+    height: auto;
+    width: 100%;
+    /* border: 1px solid gold; */
+    position: relative;
+    top: 64px;
+    display: flex;
+}
+
+.section-2 .section-2-desktop-left{
+    width:60%;
+    /* border: 1px solid tomato; */
+    padding: 32px 24px;
+}
+
+.section-2-img-container{
+    height: auto;
+    max-width: 100%;
+    margin-bottom: 32px;
+}
+
+.section-2-desktop-left img{
+    display: block;
+    max-width: 100%;
+    height: auto;
+}
+
+.section-2-desktop-left-text-section{
+    color: rgb(64,64,64);
+}
+
+.section-2-desktop-left-text-section h1{
+    font-size: 40px;
+    letter-spacing: 0.02em;
+    margin-bottom: 24px;
+}
+
+.section-2-desktop-left-text-section p{
+    font-size: 18px;
+    letter-spacing: 0.02em;
+    word-spacing: 0.2em;
+    /* word-break: keep-all; */
+    word-wrap: none;
+}
+
+.section-2-desktop-left-text-section #p-author{
+    margin-top: 32px;
+}
+
+.section-2-desktop-right{
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    /* justify-content: space-evenly; */
+    /* border: 1px solid greenyellow; */
+    padding-top: 16px;
+}
+
+.section-2-desktop-right .card{
+    /* border: 1px solid tomato; */
+    display: flex;
+    padding: 16px 16px
+}
+
+.section-2-desktop-right .card:hover{
+    background: gainsboro;
+    color: white;
+}
+
+.card .img-card-container-desk{
+    max-width: 35%;
+    height: auto;
+    /* border: 1px solid royalblue; */
+}
+
+
+.card .img-card-container-desk .desk-img {
+    max-width: 100%;
+    display: block;
+    height: auto;
+
+}
+
+.img-card-container-desk .mob-img{
+
+    display: none;
+}
+
+.card .info-card-container{
+    width:100%;
+    padding: 32px 16px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center ;
+}
+
+.card .info-card-container h3{
+    color: rgb(64,64,64);
+    font-weight: 500;
+    /* font-size: 4.5vw; */
+}
+
+.card .info-card-container p{
+    margin: 8px 0;
+    /* font-size: 15px; */
+    font-weight: 300;
+}
+
+.card .info-card-container a{
+    text-decoration: none;
+    color: skyblue;
+    width: fit-content;
+    /* border: 1px solid red; */
+    /* font-size: 3.8vw; */
 }

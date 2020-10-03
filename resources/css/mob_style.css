@@ -72,5 +72,16 @@
     .section-2-desktop-right{
         width: 100%;
     }
+    .card .info-card-container h3{
+      font-size: 4.5vw;
+    }
+
+    .card .info-card-container p{
+      font-size: 3.6vw;
+    }
+
+    .card .info-card-container a{
+      font-size: 3.5vw;
+    }
 
 }

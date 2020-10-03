@@ -94,7 +94,7 @@
 
     .img-card-container-desk .mob-img{
         display: block;
-        max-width: 100%;
+        width: 100%;
         height: auto;
     }
     .card .info-card-container h3{

@@ -75,7 +75,6 @@
     }
 
     .section-2-desktop-right .card{
-
         display: flex;
         flex-direction: column;
         padding: 16px 16px;
@@ -85,7 +84,6 @@
     .card .img-card-container-desk{
         max-width: 100%;
         height: auto;
-        border: 1px solid royalblue;
     }
 
 

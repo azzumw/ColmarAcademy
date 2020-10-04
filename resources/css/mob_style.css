@@ -135,5 +135,19 @@
          font-weight:4.2vw;
      }
 
+     #learning-grid .desk-grid-card{
+       display: none;
+    }
 
+    #learning-grid .grid-mob-card{
+       display: block;
+       padding: 24px 16px;
+       background: gainsboro;
+       color:rgb(64,64,64);
+       text-align: start;
+     }
+
+ .grid-mob-card h3{
+     font-size: 4.5vw;
+   }
 }

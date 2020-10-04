@@ -324,3 +324,7 @@ nav ul li{
     margin: 8px 0;
     text-transform: uppercase;
 }
+
+#learning-grid .grid-mob-card{
+    display: none;
+}

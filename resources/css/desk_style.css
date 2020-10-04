@@ -286,4 +286,41 @@ nav ul li{
 
 #learning-grid{
     display: grid;
+    /* grid-template-columns: 33% 33% 33%; */
+    /* grid-template-rows: 50% 50%; */
+    grid-template: 1fr 1fr / 1fr 1fr 1fr;
+    grid-gap: 32px 32px;
+}
+
+.grid-card{
+    background: white;
+}
+
+.grid-card .grid-card-img-container{
+    height: auto;
+    max-width: 100%;
+}
+
+.grid-card-img-container img{
+    height: auto;
+    max-width: 100%;
+    display: block;
+}
+
+.grid-card .grid-card-text-section{
+    padding: 16px 16px 24px 16px;
+    text-align: start;
+    font-weight: 300;
+    letter-spacing: 0.04em;
+    line-height: 1.4em;
+}
+
+.grid-card .grid-card-text-section h3{
+    color: rgb(64,64,64);
+    /* font-weight: 500; */
+}
+
+.grid-card .courses-title{
+    margin: 8px 0;
+    text-transform: uppercase;
 }

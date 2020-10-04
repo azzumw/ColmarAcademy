@@ -6,7 +6,6 @@
 
 body{
     font-family: sans-serif;
-    /* border: 1px solid red; */
 }
 
 #main{
@@ -24,7 +23,6 @@ header{
     z-index: 2;
     position: fixed;
     background: white;
-   /* border: 1px solid green; */
 }
 
 #desk-header{
@@ -78,18 +76,21 @@ nav ul li{
 .section{
     height: auto;
     width: 100%;
-    background: gainsboro;
+    display: flex;
+}
+
+/* section 1 */
+
+.section-1{
     position: relative;
     top: 64px;
-    display: flex;
-
+    background: gainsboro;
 }
 
 .banner-section{
-    height: auto;
     width: 60%;
+    height: auto;
     padding: 32px 24px;
-    /* border: 1px solid black; */
 }
 
 .banner-section img{
@@ -102,15 +103,11 @@ nav ul li{
     width: 40%;
     display: flex;
     align-items: center;
-    /* border: 1px solid red; */
-    /* font-size: 50px; */
-
 }
 
 .banner-section-right-inner-container{
     height: auto;
     width: 60%;
-    /* width: 70%; */
     min-width: 355px;
     display: flex;
     flex-direction: column;
@@ -118,35 +115,27 @@ nav ul li{
     color: rgb(64,64,64);
     margin: 32px 0;
     font-size: 40px;
-    /* border: 1px solid red; */
-    /* font-size: 0.82vw; */
 }
 
 .banner-section-right h1{
-    /* width: 55%; */
-
     letter-spacing: 0.02em;
-    /* display: inline-block; */
     font-size: 40px;
 }
 
 .banner-section-right p{
-    /* width: 55%; */
     margin-top: 32px;
     margin-bottom: 24px;
     font-size: 28px;
-    /* display: inline-block; */
 }
 
 #start-here-btn{
-    /* width: 50%; */
+    width: 96%;
     height: auto;
     color: white;
     font-size: 55%;
     text-align: center;
     background: rgb(64,64,64);
     padding: 3%;
-    /* font-size: 50%; */
 }
 
 /* section-2 */
@@ -154,7 +143,6 @@ nav ul li{
     background: white;
     height: auto;
     width: 100%;
-    /* border: 1px solid gold; */
     position: relative;
     top: 64px;
     display: flex;
@@ -162,9 +150,13 @@ nav ul li{
 
 .section-2 .section-2-desktop-left{
     width:60%;
-    /* border: 1px solid tomato; */
     padding: 32px 24px;
 }
+
+ /* .section-2-desktop-left{
+    width:60%;
+    padding: 32px 24px;
+} */
 
 .section-2-img-container{
     height: auto;
@@ -192,7 +184,6 @@ nav ul li{
     font-size: 18px;
     letter-spacing: 0.02em;
     word-spacing: 0.2em;
-    /* word-break: keep-all; */
     word-wrap: none;
 }
 
@@ -204,13 +195,10 @@ nav ul li{
     width: 40%;
     display: flex;
     flex-direction: column;
-    /* justify-content: space-evenly; */
-    /* border: 1px solid greenyellow; */
     padding-top: 16px;
 }
 
 .section-2-desktop-right .card{
-    /* border: 1px solid tomato; */
     display: flex;
     padding: 16px 16px
 }
@@ -223,7 +211,6 @@ nav ul li{
 .card .img-card-container-desk{
     max-width: 35%;
     height: auto;
-    /* border: 1px solid royalblue; */
 }
 
 
@@ -250,12 +237,10 @@ nav ul li{
 .card .info-card-container h3{
     color: rgb(64,64,64);
     font-weight: 500;
-    /* font-size: 4.5vw; */
 }
 
 .card .info-card-container p{
     margin: 8px 0;
-    /* font-size: 15px; */
     font-weight: 300;
 }
 
@@ -263,6 +248,104 @@ nav ul li{
     text-decoration: none;
     color: skyblue;
     width: fit-content;
-    /* border: 1px solid red; */
-    /* font-size: 3.8vw; */
+}
+
+
+/* section 3 */
+
+.section-3{
+    position: relative;
+    top:64px;
+    padding: 32px 72px;
+    text-align: center;
+    background: whitesmoke;
+}
+
+.section-3 h1{
+    color:rgb(64,64,64);
+    font-size:40px;
+    letter-spacing: 0.02em;
+    margin-bottom: 32px;
+}
+
+#learning-grid{
+    display: grid;
+    grid-template: 1fr 1fr / 1fr 1fr 1fr;
+    grid-gap: 32px 32px;
+}
+
+.grid-card{
+    background: white;
+}
+
+.grid-card .grid-card-img-container{
+    height: auto;
+    max-width: 100%;
+}
+
+.grid-card-img-container img{
+    height: auto;
+    max-width: 100%;
+    display: block;
+}
+
+.grid-card .grid-card-text-section{
+    padding: 16px 16px 24px 16px;
+    text-align: start;
+    font-weight: 300;
+    letter-spacing: 0.04em;
+    line-height: 1.4em;
+}
+
+.grid-card .grid-card-text-section h3{
+    color: rgb(64,64,64);
+    /* font-weight: 500; */
+}
+
+.grid-card .courses-title{
+    margin: 8px 0;
+    text-transform: uppercase;
+}
+
+#learning-grid .grid-mob-card{
+    display: none;
+}
+
+
+/* section 4 */
+.section-4{
+    position: relative;
+    top:64px;
+    padding: 32px 8px 24px 24px;
+    background: white;
+    /* border: 1px solid tomato; */
+}
+
+.section-4 #section-4-title{
+    color:rgb(64,64,64);
+    font-size:40px;
+    letter-spacing: 0.02em;
+    margin-bottom: 32px;
+    /* border: 1px solid grey; */
+    text-align: center;
+}
+
+.section-4-main-flex-container{
+    height: auto;
+    width: 100%;
+    display: flex;
+    /* border: 1px solid orange;; */
+}
+
+.section-4 #section-4-desktop-left{
+    width:60%;
+    padding: 0 24px 24px 0;
+}
+
+#section-4-desktop-right{
+    padding-top: 0;
+}
+
+video{
+    width: 100%;
 }
